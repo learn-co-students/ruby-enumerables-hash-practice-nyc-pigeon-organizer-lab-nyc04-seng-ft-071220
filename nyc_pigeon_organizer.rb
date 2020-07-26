@@ -52,3 +52,23 @@ def nyc_pigeon_organizer(data)
   # binding.pry
   
 end
+
+
+# def nyc_pigeon_organizer(data)
+# list = {}
+# data.each do |key, value| 
+#   value.each do |innerkey, names|
+#     names.each do |name| 
+#       if !list[name]
+#         list[name] = {}
+#       end
+#       if !list[name][key]
+#         list[name][key] = [] 
+#       end
+#       list[name][key].push(innerkey.to_s)
+#     end
+#   end
+# end
+
+# list
+# end
